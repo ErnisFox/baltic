@@ -1,0 +1,42 @@
+body,
+html {
+  font-size: 100%;
+  font-family: "Helvetica", sans-serif;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  border-bottom: 1px solid #797979;
+  padding-top: 20px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+nav .container img {
+  padding-bottom: 20px;
+}
+nav .container ul {
+  align-self: flex-end;
+}
+nav .container ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+nav .container ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-bottom: 36px;
+  text-decoration: none;
+}
+nav .container ul li a.active,
+nav .container ul li a:hover {
+  border-bottom: 5px solid #11749e;
+}

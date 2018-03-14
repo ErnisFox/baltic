@@ -1,0 +1,48 @@
+body, html{
+    font-size: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+body,html{
+    margin:0;
+    padding: 0;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+	 
+}
+ 
+nav{
+	border-bottom: 1px solid #797979;
+	padding-top: 20px;
+	.container{
+	display: flex;
+	justify-content: space-between;
+	img{
+		padding-bottom: 20px;
+	}
+
+	ul{
+		align-self: flex-end;
+ 
+		li{
+			display: inline-block;
+			margin: 0 20px;
+			a{
+				display: block;
+			    color: white;
+			    text-align: center;
+			    padding-bottom: 36px;
+			    text-decoration: none;
+			    &.active,
+			    &:hover{
+                        border-bottom: 5px solid #11749e;
+			    }
+
+			}
+		}
+	}
+}
+}
+ 
